@@ -33,7 +33,7 @@ const NatureMeditate = () => {
             showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => (
               <TouchableOpacity
-                onPress={() => router.push(`/meditate`)}
+                onPress={() => router.push(`/meditate/${item.id}`)}
                 className="h-48 my-3 rounded-md overflow-hidden"
               >
                 <ImageBackground
