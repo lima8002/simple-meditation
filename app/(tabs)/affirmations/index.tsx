@@ -12,7 +12,15 @@ const Affirmations = () => {
           <Text className="text-zinc-50 text-3xl font-bold">
             Change your beliefs with affirmations
           </Text>
-          <View></View>
+          <View>
+            {AFFIRMATION_GALLERY.map((g) => (
+              <GuidedAffirmationsGallery
+                key={g.title}
+                title={g.title}
+                previews={g.data}
+              />
+            ))}
+          </View>
         </ScrollView>
       </AppGradient>
     </View>
