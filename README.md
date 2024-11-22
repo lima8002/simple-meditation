@@ -2,6 +2,8 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+This is app is very simple but yet a good way to learn TypeScript. All my knowledge with React Native was based only with JaveScript. Since TypeScript is a better way to make React Native apps, it is required today to expand the knowledge.
+
 ## Get started
 
 1. Install dependencies
